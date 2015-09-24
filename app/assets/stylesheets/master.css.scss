@@ -36,6 +36,8 @@
 	color:black;
 	font-size:25px;
 	border-bottom: 1px solid #dfdfdf;
+	font-family: 'fira_sanseight', sans-serif;
+	font-weight:bold;
 }
 
 header {
@@ -44,4 +46,13 @@ header {
 
 hr {
 	clear:both;
+}
+
+h1 {
+  font-family: 'fira_sansbold', sans-serif;
+  font-size:48px;
+}
+
+h2 {
+  font-family: 'fira_sanseight', sans-serif;
 }
