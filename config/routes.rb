@@ -3,6 +3,9 @@ Splurty::Application.routes.draw do
 
   resources :quotes
   
+  # Get the about URL and point it to about action in controller
+  get 'about', :to => 'quotes#about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
